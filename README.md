@@ -8,11 +8,12 @@ At the time of publication, Lidar Point Cloud support in UE 5.6.0 is broken. Use
 ## How to use:
 1. Create a new UE project, using the Collab Viewer (under Architecture) template. This template allows for clicking with the left mouse button and rotating the view while holding the right mouse button.
 2. Enable the Lidar Point Cloud Plugin and restart the editor.
-3. Create a new C++ class that derives from ALidarPointCloudActor and call it MyLidarPointCloudActor.
-4. Copy the necessary code into the generated header and source files.
-5. Set the path from where you want to load point clouds in line 56 of MyLidarPointCloudActor.cpp.
-6. Build the project.
-7. Run it from Unreal Editor.
+3. Throw out all unnecessary stuff, i.e. all existing geometry.
+4. Create a new C++ class that derives from ALidarPointCloudActor and call it MyLidarPointCloudActor.
+5. Copy the necessary code into the generated header and source files.
+6. Set the path from where you want to load point clouds in line 56 of MyLidarPointCloudActor.cpp.
+7. Build the project.
+8. Run it from Unreal Editor.
 
 ## Functionality:
 This code illustrates the following things:
