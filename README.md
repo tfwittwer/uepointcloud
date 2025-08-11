@@ -1,6 +1,8 @@
 # Unreal Engine Point Cloud example
 This is a full example for using Lidar Point Clouds from C++ in Unreal Engine 5.x. 
 
+![Point Cloud in UE](ue_pc.jpg)
+
 At the time of publication, Lidar Point Cloud support in UE 5.6.0 is broken. Use 5.5.4! The description below assumes that everything is set up for C++ development using Visual Studio 2022.
 
 ## How to use:
